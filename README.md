@@ -19,19 +19,28 @@ Berikut soal praktikum yang diberikan dosen :
 
 Inilah source code dari program saya :
 ```ruby
-## Indirarully
-data = {}
+class Mahasiswa:
+          ''' Dasar kelas untuk nilai mahasiswa'''
+          Jumlah_karyawan = 0
 
-def tambah():
-    print("Tambah Data")
-    nama = input("Nama\t\t: ")
-    nim = int(input("NIM\t\t\t: "))
-    tugas = int(input("NIlai Tugas\t: "))
-    uts = int(input("Nilai UTS\t: "))
-    uas = int(input("Nilai UAS\t: "))
-    nilaiakhir = (tugas * 0.3 + uts * 0.35 + uas * 0.35)
-    data[nama] = nim, tugas, uts, uas, nilaiakhir
-)
+          Def __init__(self, nama, nilai):
+                  Self.nama = nama
+                  self.nilai    = nilai
+                  Mahasiswa.jumlah_mahasiswa += 1
+
+         def tampilkan_jumlah(self):
+                 Print("Total mahasiswa :" , Mahasiswa.jumlah_mahasiswa)
+
+        def tampilkan_profil(self):
+               print("Nama  :", self.nama)
+               print("Nilai  :", self.nilai)
+
+# Membuat objek pertama di kelas mahasiswa
+Mahasiswa1 = Mahasiswa("Indira", 90)
+# Membuat objek kedua di kelas mahasiswa
+Mahasiswa2 = Mahasiswa("Pricilia", 80)
+
+Print("Mahasiswa.__doc__:" , Mahasiswa.__doc__)
 ```
 
 Saat di run, maka program akan menghasilkan output ini :
