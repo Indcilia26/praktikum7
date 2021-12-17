@@ -21,9 +21,9 @@ Inilah source code dari program saya :
 ```ruby
 class Mahasiswa:
           ''' Dasar kelas untuk nilai mahasiswa'''
-          Jumlah_karyawan = 0
+          jumlah_mahasiswa = 0
 
-          Def __init__(self, nama, nilai):
+          def __init__(self, nama, nilai):
                   Self.nama = nama
                   self.nilai    = nilai
                   Mahasiswa.jumlah_mahasiswa += 1
@@ -31,9 +31,9 @@ class Mahasiswa:
          def tampilkan_jumlah(self):
                  Print("Total mahasiswa :" , Mahasiswa.jumlah_mahasiswa)
 
-        def tampilkan_profil(self):
+         def tampilkan_profil(self):
                print("Nama  :", self.nama)
-               print("Nilai  :", self.nilai)
+               print("Nilai :", self.nilai)
 
 # Membuat objek pertama di kelas mahasiswa
 Mahasiswa1 = Mahasiswa("Indira", 90)
