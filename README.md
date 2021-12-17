@@ -1,6 +1,6 @@
 # praktikum7
 
-## Tugas pemograman pertemuan 12 - Mengaplikasikan diagram class
+## Tugas pertemuan 12 - Mengaplikasikan diagram class
 
 ================================
 
