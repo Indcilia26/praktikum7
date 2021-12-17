@@ -20,20 +20,20 @@ Berikut soal praktikum yang diberikan dosen :
 Inilah source code dari program saya :
 ```ruby
 class Mahasiswa:
-          ''' Dasar kelas untuk nilai mahasiswa'''
-          jumlah_mahasiswa = 0
+     ''' Dasar kelas untuk nilai mahasiswa'''
+     jumlah_mahasiswa = 0
 
-          def __init__(self, nama, nilai):
-                  Self.nama = nama
-                  self.nilai    = nilai
-                  Mahasiswa.jumlah_mahasiswa += 1
+     def __init__(self, nama, nilai):
+         self.nama = nama
+         self.nilai    = nilai
+         Mahasiswa.jumlah_mahasiswa += 1
 
-         def tampilkan_jumlah(self):
-                 Print("Total mahasiswa :" , Mahasiswa.jumlah_mahasiswa)
+     def tampilkan_jumlah(self):
+         print("Total mahasiswa :" , Mahasiswa.jumlah_mahasiswa)
 
-         def tampilkan_profil(self):
-               print("Nama  :", self.nama)
-               print("Nilai :", self.nilai)
+     def tampilkan_profil(self):
+         print("Nama  :", self.nama)
+         print("Nilai :", self.nilai)
 
 # Membuat objek pertama di kelas mahasiswa
 Mahasiswa1 = Mahasiswa("Indira", 90)
