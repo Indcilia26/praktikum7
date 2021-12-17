@@ -12,22 +12,8 @@
 
 =================================
 
-### Latihan
-Berikut soal latihan yang diberikan dosen :
-
-![img](Screenshot/ss1.png)
-
-dan ini hasil dari source code diatas :
-```ruby
-print("________________________________________")
-```
-
-Berikut outputnya:
-
-![img](Screenshot/ss1.png)
-
 ### Tugas Praktikum
-Berikut soal yang diberikan dosen :
+Berikut soal praktikum yang diberikan dosen :
 
 ![img](Screenshot/ss1.png)
 
