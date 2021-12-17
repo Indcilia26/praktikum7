@@ -4,9 +4,9 @@
 
 ================================
 
-= Nama : Indira Rully Pricilia
+= Nama  : Indira Rully Pricilia
 
-= NIM : 312110354
+= NIM   : 312110354
 
 = Kelas : TI.21.CA.1
 
