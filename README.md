@@ -23,9 +23,10 @@ class Mahasiswa:
      ''' Dasar kelas untuk nilai mahasiswa'''
      jumlah_mahasiswa = 0
 
-     def __init__(self, nama, nilai):
-         self.nama = nama
-         self.nilai    = nilai
+     def __init__(self, nama, nim, nilai):
+         self.nama  = nama
+         self.nilai = nilai
+         self.nim   = nim
          Mahasiswa.jumlah_mahasiswa += 1
 
      def tampilkan_jumlah(self):
@@ -34,12 +35,13 @@ class Mahasiswa:
      def tampilkan_profil(self):
          print("Nama  :", self.nama)
          print("Nilai :", self.nilai)
+         print("Nim   :", self.nim)
 
 # Membuat objek pertama di kelas mhs
-Mahasiswa1 = Mahasiswa("Indira", 90)
+Mahasiswa1 = Mahasiswa("Indira", 90, 312110354)
 
 # Membuat objek kedua di kelas mhs
-Mahasiswa2 = Mahasiswa("Pricilia", 80)
+Mahasiswa2 = Mahasiswa("Pricilia", 80, 31200000)
 
 Mahasiswa1.tampilkan_profil()
 Mahasiswa2.tampilkan_profil()
