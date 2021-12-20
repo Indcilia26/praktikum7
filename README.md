@@ -40,12 +40,16 @@ Mahasiswa1 = Mahasiswa("Indira", 90)
 # Membuat objek kedua di kelas mahasiswa
 Mahasiswa2 = Mahasiswa("Pricilia", 80)
 
-Print("Mahasiswa.__doc__:" , Mahasiswa.__doc__)
+Mahasiswa1.tampilkan_profil()
+Mahasiswa2.tampilkan_profil()
+
+print("Total mahasiswa :", Mahasiswa.jumlah_mahasiswa)
 ```
 
 Saat di run, maka program akan menghasilkan output ini :
 
 ![img](Screenshot/ss1.png)
+
 
 Terdapat 5 Pilihan menu, yaitu :
 
@@ -62,11 +66,13 @@ Terdapat 5 Pilihan menu, yaitu :
 
 **1) Lihat Data Nilai Mahasiswa**
 
-System akan menjalankan fitur ini ketika user mengetikkan perintah 2 pada pilihan Pilih Menu (1-2-3-4-5) Inilah tampilan fitur Lihat Data :
+System akan menjalankan fitur ini ketika user mengetikkan perintah 1 pada pilihan Pilih Menu (1-2-3-4-5) Inilah tampilan fitur Lihat Data :
 
 ![img](Screenshot/ss1.png)
 
 **2) Menambahkan Data**
+
+Fitur ini akan menambahkan data berupa Nama, Nim dan nilai menggunakan menu perintah 2 pada menu 1-2-3-4-5, berikut outputnya :
 
 ![img](Screenshot/ss1.png)
 
