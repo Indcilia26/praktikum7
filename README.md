@@ -27,7 +27,7 @@ class Mahasiswa:
      ''' Dasar kelas untuk nilai mahasiswa'''
      jumlah_mahasiswa = 0
 
-     def __init__(self, nama, nim, nilai):
+     def __init__(self, nama, nilai, nim):
          self.nama  = nama
          self.nilai = nilai
          self.nim   = nim
