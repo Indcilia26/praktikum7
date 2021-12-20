@@ -19,6 +19,10 @@ Berikut soal praktikum yang diberikan dosen :
 
 Inilah source code dari program saya :
 ```ruby
+#include <iostream>
+#Indirarully
+
+int
 class Mahasiswa:
      ''' Dasar kelas untuk nilai mahasiswa'''
      jumlah_mahasiswa = 0
