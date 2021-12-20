@@ -35,9 +35,13 @@ class Mahasiswa:
          print("Nama  :", self.nama)
          print("Nilai :", self.nilai)
 
-# Membuat objek pertama di kelas mahasiswa
+# Membuat objek pertama di kelas mhs
+
 Mahasiswa1 = Mahasiswa("Indira", 90)
-# Membuat objek kedua di kelas mahasiswa
+
+
+# Membuat objek kedua di kelas mhs
+
 Mahasiswa2 = Mahasiswa("Pricilia", 80)
 
 Mahasiswa1.tampilkan_profil()
