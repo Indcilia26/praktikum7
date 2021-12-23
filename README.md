@@ -82,7 +82,17 @@ Fitur ini akan menambahkan data berupa Nama, Nim dan nilai menggunakan menu peri
 
 **3) Fitur ubah data**
 
-Pada fitur ini user akan diminta untuk memilih data siapa yang akan diubah dan data apa yang akan dirubah Setelah user memilih data
+Pada fitur ini user akan diminta untuk memilih data siapa dan data apa yang akan dirubah, misal saya ingin merubah nama dan nilai. Ini source code dan outputnya :
+
+```ruby
+Indira.nama = 'Indira Rully' # mengubah nilai atribut
+Indira.nilai   = '70' # mengubah nilai atribut
+
+print(Indira.nama) # mengakses atribut
+print(Indira.nilai) # mengakses atribut
+
+Indira.cetak() # memanggil fungsi / method
+```
 
 ![img](Screenshot/ss1.png)
 
