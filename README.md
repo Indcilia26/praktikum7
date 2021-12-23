@@ -76,7 +76,16 @@ System akan menjalankan fitur ini ketika user mengetikkan perintah 1 pada piliha
 
 **2) Menambahkan Data**
 
-Fitur ini akan menambahkan data berupa Nama, Nim dan nilai menggunakan menu perintah 2 pada menu 1-2-3-4-5, berikut outputnya :
+Fitur ini akan menambahkan data menggunakan menu perintah 2 pada menu 1-2-3-4-5, misal saya ingin menambah data umur. berikut outputnya :
+```ruby
+@property
+def umur(self):
+return self.__umur
+
+@umur.setter
+def umur(self, value):
+self.__umur value
+```
 
 ![img](Screenshot/ss1.png)
 
