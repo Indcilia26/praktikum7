@@ -76,7 +76,7 @@ System akan menjalankan fitur ini ketika user mengetikkan perintah 1 pada piliha
 
 **2) Menambahkan Data**
 
-Fitur ini akan menambahkan data menggunakan menu perintah 2 pada menu 1-2-3-4-5, misal saya ingin menambah data umur. berikut outputnya :
+Fitur ini akan menambahkan data menggunakan menu perintah 2 pada menu 1-2-3-4-5, misal saya ingin menambah data umur. berikut source code dan outputnya :
 ```ruby
 @property
 def umur(self):
