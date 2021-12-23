@@ -19,13 +19,12 @@ Berikut soal praktikum yang diberikan dosen :
 
 Inilah source code dari program saya :
 ```ruby
-#include <iostream>
-#Indirarully
+# Indirarully
+# definisi class
 
-int
-class Mahasiswa:
-     ''' Dasar kelas untuk nilai mahasiswa'''
-     jumlah_mahasiswa = 0
+class mahasiswa():
+      ''' Dasar kelas untuk nilai mahasiswa'''
+      jumlah_mahasiswa = 0
 
      def __init__(self, nama, nilai, nim):
          self.nama  = nama
@@ -41,16 +40,14 @@ class Mahasiswa:
          print("Nilai :", self.nilai)
          print("Nim   :", self.nim)
 
-# Membuat objek pertama di kelas mhs
-Mahasiswa1 = Mahasiswa("Indira", 90, 312110354)
+# Membuat objek di kelas mhs
+Indira = mahasiswa('Indira, 90, 312110354')
+Pricilia = mahasiswa('Pricilia, 87, 312000000')
 
-# Membuat objek kedua di kelas mhs
-Mahasiswa2 = Mahasiswa("Pricilia", 80, 31200000)
+    def cetak(self):
+        print("\nNama: {}\nNilai: {}"\.format(self.nama, self.nilai, self.nim))
 
-Mahasiswa1.tampilkan_profil()
-Mahasiswa2.tampilkan_profil()
-
-print("Total mahasiswa :", Mahasiswa.jumlah_mahasiswa)
+print()
 ```
 
 Saat di run, maka program akan menghasilkan output ini :
