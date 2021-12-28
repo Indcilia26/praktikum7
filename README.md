@@ -13,14 +13,12 @@
 =================================
 
 ### Tugas Praktikum
-Berikut soal praktikum yang diberikan dosen :
 
-![img](Screenshot/ss1.png)
-
-Inilah source code dari program saya :
+Ini source code dari program class nya :
 ```ruby
 # Indirarully
 # definisi class
+#include<iostream>
 
 class mahasiswa():
       ''' Dasar kelas untuk nilai mahasiswa'''
@@ -70,9 +68,9 @@ System akan menjalankan fitur ini ketika user mengetikkan perintah 1 pada piliha
 
 **2) Menambahkan Data**
 
-Fitur ini akan menambahkan data menggunakan menu perintah 2 pada menu 1-2-3-4-5, misal saya ingin menambah data mahasiswa :
+Fitur ini akan menambahkan data menggunakan menu perintah 2 pada menu 1-2-3-4-5, misal saya ingin menambah data mahasiswa seperti ini jika digabung :
 
-![img](Screenshot/ss1.png)
+![img](Screenshot/ss2.png)
 
 **3) Fitur ubah data**
 
@@ -89,19 +87,21 @@ print(Rully.nim) # mengakses atribut
 Rully.cetak() # memanggil fungsi / method
 ```
 
-![img](Screenshot/ss1.png)
+![img](Screenshot/ss3.png)
 
 **4) Fitur Hapus Data Nilai Mahasiswa**
 
-System akan menjalankan fitur ini ketika user mengetikkan perintah 4 pada pilihan Pilih Menu (1-2-3-4-5)
+System akan menjalankan fitur ini ketika user mengetikkan perintah 4 pada pilihan Pilih Menu (1-2-3-4-5) dan data akan hilang. Berikut outputnya :
 
-![img](Screenshot/ss1.png)
+![img](Screenshot/ss4.png)
 
 
-### Flowchart
-Dan berikut adalah Hasil Dari Flowchartnya
+### Flowchart dan diagram class
+Dan berikut adalah Hasil Flowchart beserta diagram class nya
 
-![img](Screenshot/ss1.png)
+![img](Screenshot/flowchart.png)
+![img](Screenshot/diagramclass.png)
+
 
 *Sekian penjelasan praktikum 7, terimakasih atas perhatiannya..*
 
