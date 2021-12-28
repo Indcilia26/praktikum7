@@ -99,7 +99,7 @@ System akan menjalankan fitur ini ketika user mengetikkan perintah 4 pada piliha
 ### Flowchart dan diagram class
 Dan berikut adalah Hasil Flowchart beserta diagram class nya
 
-![img](Screenshot/flowchart.png)
+![img](Screenshot/Flowchart.png)
 ![img](Screenshot/diagramclass.png)
 
 
