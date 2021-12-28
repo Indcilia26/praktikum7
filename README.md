@@ -49,12 +49,6 @@ Pricilia = mahasiswa('Pricilia, 87, 312000000')
 
 print()
 ```
-
-Saat di run, maka program akan menghasilkan output ini :
-
-![img](Screenshot/ss1.png)
-
-
 Terdapat 5 Pilihan menu, yaitu :
 
 = 1. Lihat Data
@@ -76,31 +70,23 @@ System akan menjalankan fitur ini ketika user mengetikkan perintah 1 pada piliha
 
 **2) Menambahkan Data**
 
-Fitur ini akan menambahkan data menggunakan menu perintah 2 pada menu 1-2-3-4-5, misal saya ingin menambah data umur. berikut source code dan outputnya :
-```ruby
-@property
-def umur(self):
-return self.__umur
-
-@umur.setter
-def umur(self, value):
-self.__umur value
-```
+Fitur ini akan menambahkan data menggunakan menu perintah 2 pada menu 1-2-3-4-5, misal saya ingin menambah data mahasiswa :
 
 ![img](Screenshot/ss1.png)
 
 **3) Fitur ubah data**
 
 Pada fitur ini user akan diminta untuk memilih data siapa dan data apa yang akan dirubah, misal saya ingin merubah nama dan nilai. Ini source code dan outputnya :
-
 ```ruby
-Indira.nama = 'Indira Rully' # mengubah nilai atribut
-Indira.nilai   = '70' # mengubah nilai atribut
+Rully.nama    = 'Rully' # mengubah nama atribut
+Rully.nim     = '312345' # mengubah nim atribut
+Rully.nilai   = '70' # mengubah nilai atribut
 
-print(Indira.nama) # mengakses atribut
-print(Indira.nilai) # mengakses atribut
+print(Rully.nama) # mengakses atribut
+print(Rully.nilai) # mengakses atribut
+print(Rully.nim) # mengakses atribut
 
-Indira.cetak() # memanggil fungsi / method
+Rully.cetak() # memanggil fungsi / method
 ```
 
 ![img](Screenshot/ss1.png)
